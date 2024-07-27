@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 import '../core/resources/assets/assets.dart';
@@ -18,7 +16,7 @@ class BottomNavbar extends StatelessWidget {
         showUnselectedLabels: false,
         elevation: 0,
         items: [
-          BottomNavigationBarItem(
+          const BottomNavigationBarItem(
             icon: ImageIcon(
               AssetImage(
                 Assets.homeFillIcon,
@@ -32,7 +30,7 @@ class BottomNavbar extends StatelessWidget {
             ),
             label: '',
           ),
-          BottomNavigationBarItem(
+          const BottomNavigationBarItem(
             icon: ImageIcon(
               AssetImage(Assets.searchIcon),
               size: 28,
@@ -60,7 +58,7 @@ class BottomNavbar extends StatelessWidget {
             ),
             label: '',
           ),
-          BottomNavigationBarItem(
+          const BottomNavigationBarItem(
             icon: ImageIcon(
               AssetImage(Assets.usersIcon),
               size: 28,
